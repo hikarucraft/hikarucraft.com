@@ -1,10 +1,10 @@
-import { Nunito } from 'next/font/google';
+import { IBM_Plex_Sans_JP } from 'next/font/google';
 import type { Metadata } from 'next';
-
-const fontNunito = Nunito({
+import './globals.css';
+const fontIBMPlex = IBM_Plex_Sans_JP({
   weight: ['400', '700'],
-  style: ['normal'],
-  variable: '--font-nunito',
+  subsets: ['latin'],
+  variable: '--font-m-plus-1p',
 });
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={fontNunito.className}>{children}</body>
+      <body className={fontIBMPlex.className}>{children}</body>
     </html>
   );
 }
