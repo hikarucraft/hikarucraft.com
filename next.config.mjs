@@ -16,6 +16,7 @@ const nextConfig = {
     //additionalData: `@import "main";`,
     prependData: `
     @use 'src/styles/_variables.scss' as *;
+    @use 'src/styles/_breakpoint.scss' as *;
     `,
   },
 };
