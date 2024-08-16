@@ -1,0 +1,45 @@
+.motionDiv {
+  position: fixed;
+  top: 3.5rem;
+  right: 0;
+  left: 0;
+  padding: 1.25rem;
+  padding-top: 0;
+  background-color: rgb(163 163 163);
+  border-bottom-color: rgb(255 255 255 / 70%);
+  border-bottom-width: 1px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+}
+
+.linkItems {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.motionLinkItem {
+  width: 100%;
+  padding: 0.08rem;
+  border-radius: 0.75rem;
+}
+
+.linkItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.25rem;
+  background-color: rgb(10 10 10);
+  border-radius: 0.75rem;
+
+  span {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem;
+  }
+}
+
+.listIcon {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem;
+}

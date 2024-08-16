@@ -1,6 +1,6 @@
 import { IBM_Plex_Sans_JP } from 'next/font/google';
 import type { Metadata } from 'next';
-import './globals.css';
+
 const fontIBMPlex = IBM_Plex_Sans_JP({
   weight: ['400', '700'],
   subsets: ['latin'],
